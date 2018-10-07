@@ -1,4 +1,4 @@
-# PHP-FPM Docker image for Laravel
+# PHP-FPM Docker image for Lumen
 
 Docker image for a php-fpm container crafted to run Laravel based applications.
 
@@ -17,7 +17,8 @@ Docker image for a php-fpm container crafted to run Laravel based applications.
 * GD PHP Extension
 * BCMath PHP Extension
 * Memcached
-* Composer
+* Redis PHP Extension
+* MongoDB PHP Extension
 * Laravel Cron Job for the [task scheduling](https://laravel.com/docs/5.4/scheduling#introduction) setup
 * PHP ini values for Laravel (see [`laravel.ini`](https://github.com/Cyber-Duck/php-fpm-laravel/blob/master/laravel.ini))
 * xDebug (PHPStorm friendly, see [`xdebug.ini`](https://github.com/Cyber-Duck/php-fpm-laravel/blob/master/xdebug.ini))
