@@ -21,6 +21,9 @@ RUN apt-get update && \
         nano \
         libxml2-dev
 
+# Install the PHP exif extension
+RUN docker-php-ext-install exif
+
 # Install soap extention
 RUN docker-php-ext-install soap
 
